@@ -1,7 +1,42 @@
 .intro{
     color: white;
-    background-color: black;
+    /* background-color: black; */
+    /* RGBA Example */
+    /* background-color: rgba(0, 0, 21, 0.3); */
+    /* Hex color notation */
+    background-color: #ffffff;
+    color: #ff0000;
 }
-.underline{
+/* .underline{
     text-decoration: underline;
+}
+.intro{
+    text-align: center;
+}
+.about{
+    text-align: center;
+}
+.passion{
+    text-align: center;
+}
+.career{
+    text-align: center;
+} */
+.underline, .intro, .about, .passion, .career{
+    text-align: center;
+}
+
+.my-image{
+    width: 400px;
+}
+.logo{
+   width: 50px; 
+}
+.header{
+    background-color:black;
+    color: white;
+    /* border-style:double;
+    border-color: red;
+    border-width: 5px; */
+    border: 5px double red;
 }
